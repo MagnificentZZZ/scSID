@@ -45,7 +45,7 @@ args = parser.parse_args()
 
 DATASET_NAME = args.dataset
 BATCH_SIZE = args.batch_size
-# 固定训练15轮
+
 EPOCH = 15
 FOLD = args.num_fold
 RANDOM_SEED = args.seed
@@ -204,7 +204,6 @@ def train_and_eval():
             lr=LR, weight_decay=1e-4
         )
 
-        # 训练15轮
         for epoch in tqdm(range(EPOCH), desc=f'Fold {fold}/{FOLD}'):
             transformer_model.train()
             classification_model.train()
@@ -237,7 +236,6 @@ def train_and_eval():
                 val_precision_final = precision_score(all_val_labels, val_pred_classes, average='macro')
                 print(f"Epoch {epoch + 1}/{EPOCH}, Fold {fold}/{FOLD} - Validation Accuracy: {val_accuracy:.4f}, Validation F1 Score: {val_f1:.4f}, Val Precision_final Score: {val_precision_final:.4f}")
 
-                # 记录最后一轮的指标
                 if epoch == EPOCH - 1:
                     last_f1s.append(val_f1)
                     last_accuracies.append(val_accuracy)
@@ -257,3 +255,4 @@ def train_and_eval():
 if __name__ == "__main__":
     setup_seed(RANDOM_SEED)
     train_and_eval()
+
