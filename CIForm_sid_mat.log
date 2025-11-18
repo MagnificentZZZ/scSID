@@ -1,0 +1,222 @@
+Processing Fold 1
+Epoch 1, Train Loss: 1.3001, Train Acc: 0.4972, Val Loss: 0.7536, Val Acc: 0.8425
+Validation loss decreased to 0.7536. Saving model.
+Epoch 2, Train Loss: 0.6133, Train Acc: 0.8962, Val Loss: 0.4207, Val Acc: 0.9224
+Validation loss decreased to 0.4207. Saving model.
+Epoch 3, Train Loss: 0.3614, Train Acc: 0.9319, Val Loss: 0.2634, Val Acc: 0.9281
+Validation loss decreased to 0.2634. Saving model.
+Epoch 4, Train Loss: 0.2152, Train Acc: 0.9386, Val Loss: 0.1816, Val Acc: 0.9224
+Validation loss decreased to 0.1816. Saving model.
+Epoch 5, Train Loss: 0.1467, Train Acc: 0.9559, Val Loss: 0.1347, Val Acc: 0.9415
+Validation loss decreased to 0.1347. Saving model.
+Epoch 6, Train Loss: 0.1139, Train Acc: 0.9604, Val Loss: 0.1130, Val Acc: 0.9584
+Validation loss decreased to 0.1130. Saving model.
+Epoch 7, Train Loss: 0.0741, Train Acc: 0.9821, Val Loss: 0.0925, Val Acc: 0.9621
+Validation loss decreased to 0.0925. Saving model.
+Epoch 8, Train Loss: 0.0464, Train Acc: 0.9922, Val Loss: 0.0871, Val Acc: 0.9677
+Validation loss decreased to 0.0871. Saving model.
+Epoch 9, Train Loss: 0.0359, Train Acc: 0.9922, Val Loss: 0.0832, Val Acc: 0.9677
+Validation loss decreased to 0.0832. Saving model.
+Epoch 10, Train Loss: 0.0262, Train Acc: 0.9967, Val Loss: 0.0768, Val Acc: 0.9697
+Validation loss decreased to 0.0768. Saving model.
+Epoch 11, Train Loss: 0.0203, Train Acc: 0.9961, Val Loss: 0.0655, Val Acc: 0.9755
+Validation loss decreased to 0.0655. Saving model.
+Epoch 12, Train Loss: 0.0136, Train Acc: 0.9972, Val Loss: 0.0641, Val Acc: 0.9773
+Validation loss decreased to 0.0641. Saving model.
+Epoch 13, Train Loss: 0.0096, Train Acc: 1.0000, Val Loss: 0.0651, Val Acc: 0.9753
+No improvement in validation loss for 1 epoch(s).
+Epoch 14, Train Loss: 0.0078, Train Acc: 1.0000, Val Loss: 0.0660, Val Acc: 0.9753
+No improvement in validation loss for 2 epoch(s).
+Epoch 15, Train Loss: 0.0076, Train Acc: 1.0000, Val Loss: 0.0666, Val Acc: 0.9716
+No improvement in validation loss for 3 epoch(s).
+Epoch 16, Train Loss: 0.0066, Train Acc: 1.0000, Val Loss: 0.0622, Val Acc: 0.9809
+Validation loss decreased to 0.0622. Saving model.
+Epoch 17, Train Loss: 0.0035, Train Acc: 1.0000, Val Loss: 0.0632, Val Acc: 0.9792
+No improvement in validation loss for 1 epoch(s).
+Epoch 18, Train Loss: 0.0032, Train Acc: 1.0000, Val Loss: 0.0657, Val Acc: 0.9792
+No improvement in validation loss for 2 epoch(s).
+Epoch 19, Train Loss: 0.0027, Train Acc: 1.0000, Val Loss: 0.0650, Val Acc: 0.9792
+No improvement in validation loss for 3 epoch(s).
+Epoch 20, Train Loss: 0.0022, Train Acc: 1.0000, Val Loss: 0.0650, Val Acc: 0.9792
+No improvement in validation loss for 4 epoch(s).
+Epoch 21, Train Loss: 0.0020, Train Acc: 1.0000, Val Loss: 0.0657, Val Acc: 0.9792
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 5 epochs with no improvement.
+Loading best model from saved_models/CIForm/sid/mat/model_fold_1.pth for final validation.
+Fold 1 Best Validation - Acc: 0.9796, F1: 0.9383, Pre: 0.9766
+--------------------------------------------------
+Processing Fold 2
+Epoch 1, Train Loss: 1.3601, Train Acc: 0.4397, Val Loss: 0.8301, Val Acc: 0.8079
+Validation loss decreased to 0.8301. Saving model.
+Epoch 2, Train Loss: 0.6952, Train Acc: 0.8694, Val Loss: 0.4805, Val Acc: 0.9246
+Validation loss decreased to 0.4805. Saving model.
+Epoch 3, Train Loss: 0.3931, Train Acc: 0.9342, Val Loss: 0.2875, Val Acc: 0.9283
+Validation loss decreased to 0.2875. Saving model.
+Epoch 4, Train Loss: 0.2290, Train Acc: 0.9425, Val Loss: 0.1960, Val Acc: 0.9303
+Validation loss decreased to 0.1960. Saving model.
+Epoch 5, Train Loss: 0.1598, Train Acc: 0.9515, Val Loss: 0.1487, Val Acc: 0.9491
+Validation loss decreased to 0.1487. Saving model.
+Epoch 6, Train Loss: 0.1027, Train Acc: 0.9682, Val Loss: 0.1135, Val Acc: 0.9714
+Validation loss decreased to 0.1135. Saving model.
+Epoch 7, Train Loss: 0.0708, Train Acc: 0.9777, Val Loss: 0.0916, Val Acc: 0.9697
+Validation loss decreased to 0.0916. Saving model.
+Epoch 8, Train Loss: 0.0529, Train Acc: 0.9883, Val Loss: 0.0802, Val Acc: 0.9753
+Validation loss decreased to 0.0802. Saving model.
+Epoch 9, Train Loss: 0.0336, Train Acc: 0.9927, Val Loss: 0.0679, Val Acc: 0.9753
+Validation loss decreased to 0.0679. Saving model.
+Epoch 10, Train Loss: 0.0249, Train Acc: 0.9972, Val Loss: 0.0595, Val Acc: 0.9807
+Validation loss decreased to 0.0595. Saving model.
+Epoch 11, Train Loss: 0.0192, Train Acc: 0.9961, Val Loss: 0.0613, Val Acc: 0.9827
+No improvement in validation loss for 1 epoch(s).
+Epoch 12, Train Loss: 0.0135, Train Acc: 0.9978, Val Loss: 0.0563, Val Acc: 0.9770
+Validation loss decreased to 0.0563. Saving model.
+Epoch 13, Train Loss: 0.0102, Train Acc: 1.0000, Val Loss: 0.0538, Val Acc: 0.9787
+Validation loss decreased to 0.0538. Saving model.
+Epoch 14, Train Loss: 0.0072, Train Acc: 1.0000, Val Loss: 0.0525, Val Acc: 0.9768
+Validation loss decreased to 0.0525. Saving model.
+Epoch 15, Train Loss: 0.0057, Train Acc: 1.0000, Val Loss: 0.0549, Val Acc: 0.9807
+No improvement in validation loss for 1 epoch(s).
+Epoch 16, Train Loss: 0.0053, Train Acc: 1.0000, Val Loss: 0.0559, Val Acc: 0.9751
+No improvement in validation loss for 2 epoch(s).
+Epoch 17, Train Loss: 0.0045, Train Acc: 1.0000, Val Loss: 0.0564, Val Acc: 0.9787
+No improvement in validation loss for 3 epoch(s).
+Epoch 18, Train Loss: 0.0031, Train Acc: 1.0000, Val Loss: 0.0588, Val Acc: 0.9807
+No improvement in validation loss for 4 epoch(s).
+Epoch 19, Train Loss: 0.0027, Train Acc: 1.0000, Val Loss: 0.0599, Val Acc: 0.9807
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 5 epochs with no improvement.
+Loading best model from saved_models/CIForm/sid/mat/model_fold_2.pth for final validation.
+Fold 2 Best Validation - Acc: 0.9719, F1: 0.9113, Pre: 0.9158
+--------------------------------------------------
+Processing Fold 3
+Epoch 1, Train Loss: 1.2669, Train Acc: 0.5073, Val Loss: 0.7572, Val Acc: 0.8388
+Validation loss decreased to 0.7572. Saving model.
+Epoch 2, Train Loss: 0.6217, Train Acc: 0.8789, Val Loss: 0.4084, Val Acc: 0.9359
+Validation loss decreased to 0.4084. Saving model.
+Epoch 3, Train Loss: 0.3608, Train Acc: 0.9191, Val Loss: 0.2519, Val Acc: 0.9320
+Validation loss decreased to 0.2519. Saving model.
+Epoch 4, Train Loss: 0.2183, Train Acc: 0.9314, Val Loss: 0.1665, Val Acc: 0.9523
+Validation loss decreased to 0.1665. Saving model.
+Epoch 5, Train Loss: 0.1316, Train Acc: 0.9609, Val Loss: 0.1223, Val Acc: 0.9694
+Validation loss decreased to 0.1223. Saving model.
+Epoch 6, Train Loss: 0.0898, Train Acc: 0.9766, Val Loss: 0.0982, Val Acc: 0.9714
+Validation loss decreased to 0.0982. Saving model.
+Epoch 7, Train Loss: 0.0571, Train Acc: 0.9860, Val Loss: 0.0874, Val Acc: 0.9733
+Validation loss decreased to 0.0874. Saving model.
+Epoch 8, Train Loss: 0.0403, Train Acc: 0.9927, Val Loss: 0.0778, Val Acc: 0.9753
+Validation loss decreased to 0.0778. Saving model.
+Epoch 9, Train Loss: 0.0243, Train Acc: 0.9967, Val Loss: 0.0687, Val Acc: 0.9812
+Validation loss decreased to 0.0687. Saving model.
+Epoch 10, Train Loss: 0.0163, Train Acc: 0.9994, Val Loss: 0.0676, Val Acc: 0.9848
+Validation loss decreased to 0.0676. Saving model.
+Epoch 11, Train Loss: 0.0105, Train Acc: 1.0000, Val Loss: 0.0687, Val Acc: 0.9848
+No improvement in validation loss for 1 epoch(s).
+Epoch 12, Train Loss: 0.0085, Train Acc: 0.9994, Val Loss: 0.0674, Val Acc: 0.9848
+No improvement in validation loss for 2 epoch(s).
+Epoch 13, Train Loss: 0.0063, Train Acc: 1.0000, Val Loss: 0.0683, Val Acc: 0.9868
+No improvement in validation loss for 3 epoch(s).
+Epoch 14, Train Loss: 0.0039, Train Acc: 1.0000, Val Loss: 0.0716, Val Acc: 0.9868
+No improvement in validation loss for 4 epoch(s).
+Epoch 15, Train Loss: 0.0033, Train Acc: 1.0000, Val Loss: 0.0740, Val Acc: 0.9868
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 5 epochs with no improvement.
+Loading best model from saved_models/CIForm/sid/mat/model_fold_3.pth for final validation.
+Fold 3 Best Validation - Acc: 0.9847, F1: 0.9374, Pre: 0.9832
+--------------------------------------------------
+Processing Fold 4
+Epoch 1, Train Loss: 1.2557, Train Acc: 0.5301, Val Loss: 0.7159, Val Acc: 0.8479
+Validation loss decreased to 0.7159. Saving model.
+Epoch 2, Train Loss: 0.5846, Train Acc: 0.8934, Val Loss: 0.3857, Val Acc: 0.9318
+Validation loss decreased to 0.3857. Saving model.
+Epoch 3, Train Loss: 0.3173, Train Acc: 0.9408, Val Loss: 0.2323, Val Acc: 0.9242
+Validation loss decreased to 0.2323. Saving model.
+Epoch 4, Train Loss: 0.1942, Train Acc: 0.9436, Val Loss: 0.1579, Val Acc: 0.9337
+Validation loss decreased to 0.1579. Saving model.
+Epoch 5, Train Loss: 0.1390, Train Acc: 0.9492, Val Loss: 0.1100, Val Acc: 0.9562
+Validation loss decreased to 0.1100. Saving model.
+Epoch 6, Train Loss: 0.0906, Train Acc: 0.9810, Val Loss: 0.0810, Val Acc: 0.9731
+Validation loss decreased to 0.0810. Saving model.
+Epoch 7, Train Loss: 0.0609, Train Acc: 0.9855, Val Loss: 0.0649, Val Acc: 0.9770
+Validation loss decreased to 0.0649. Saving model.
+Epoch 8, Train Loss: 0.0411, Train Acc: 0.9922, Val Loss: 0.0518, Val Acc: 0.9790
+Validation loss decreased to 0.0518. Saving model.
+Epoch 9, Train Loss: 0.0302, Train Acc: 0.9944, Val Loss: 0.0413, Val Acc: 0.9809
+Validation loss decreased to 0.0413. Saving model.
+Epoch 10, Train Loss: 0.0211, Train Acc: 0.9972, Val Loss: 0.0364, Val Acc: 0.9846
+Validation loss decreased to 0.0364. Saving model.
+Epoch 11, Train Loss: 0.0170, Train Acc: 0.9972, Val Loss: 0.0353, Val Acc: 0.9866
+Validation loss decreased to 0.0353. Saving model.
+Epoch 12, Train Loss: 0.0127, Train Acc: 0.9994, Val Loss: 0.0367, Val Acc: 0.9866
+No improvement in validation loss for 1 epoch(s).
+Epoch 13, Train Loss: 0.0090, Train Acc: 1.0000, Val Loss: 0.0359, Val Acc: 0.9866
+No improvement in validation loss for 2 epoch(s).
+Epoch 14, Train Loss: 0.0063, Train Acc: 1.0000, Val Loss: 0.0320, Val Acc: 0.9922
+Validation loss decreased to 0.0320. Saving model.
+Epoch 15, Train Loss: 0.0047, Train Acc: 1.0000, Val Loss: 0.0313, Val Acc: 0.9922
+No improvement in validation loss for 1 epoch(s).
+Epoch 16, Train Loss: 0.0048, Train Acc: 1.0000, Val Loss: 0.0339, Val Acc: 0.9922
+No improvement in validation loss for 2 epoch(s).
+Epoch 17, Train Loss: 0.0034, Train Acc: 1.0000, Val Loss: 0.0345, Val Acc: 0.9866
+No improvement in validation loss for 3 epoch(s).
+Epoch 18, Train Loss: 0.0028, Train Acc: 1.0000, Val Loss: 0.0349, Val Acc: 0.9866
+No improvement in validation loss for 4 epoch(s).
+Epoch 19, Train Loss: 0.0025, Train Acc: 1.0000, Val Loss: 0.0359, Val Acc: 0.9866
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 5 epochs with no improvement.
+Loading best model from saved_models/CIForm/sid/mat/model_fold_4.pth for final validation.
+Fold 4 Best Validation - Acc: 0.9898, F1: 0.9639, Pre: 0.9884
+--------------------------------------------------
+Processing Fold 5
+Epoch 1, Train Loss: 1.3040, Train Acc: 0.5011, Val Loss: 0.7714, Val Acc: 0.8429
+Validation loss decreased to 0.7714. Saving model.
+Epoch 2, Train Loss: 0.6427, Train Acc: 0.8694, Val Loss: 0.4084, Val Acc: 0.9357
+Validation loss decreased to 0.4084. Saving model.
+Epoch 3, Train Loss: 0.3468, Train Acc: 0.9275, Val Loss: 0.2375, Val Acc: 0.9357
+Validation loss decreased to 0.2375. Saving model.
+Epoch 4, Train Loss: 0.2115, Train Acc: 0.9336, Val Loss: 0.1537, Val Acc: 0.9562
+Validation loss decreased to 0.1537. Saving model.
+Epoch 5, Train Loss: 0.1437, Train Acc: 0.9581, Val Loss: 0.1035, Val Acc: 0.9697
+Validation loss decreased to 0.1035. Saving model.
+Epoch 6, Train Loss: 0.0901, Train Acc: 0.9788, Val Loss: 0.0782, Val Acc: 0.9714
+Validation loss decreased to 0.0782. Saving model.
+Epoch 7, Train Loss: 0.0614, Train Acc: 0.9855, Val Loss: 0.0596, Val Acc: 0.9846
+Validation loss decreased to 0.0596. Saving model.
+Epoch 8, Train Loss: 0.0417, Train Acc: 0.9905, Val Loss: 0.0494, Val Acc: 0.9846
+Validation loss decreased to 0.0494. Saving model.
+Epoch 9, Train Loss: 0.0273, Train Acc: 0.9961, Val Loss: 0.0433, Val Acc: 0.9866
+Validation loss decreased to 0.0433. Saving model.
+Epoch 10, Train Loss: 0.0220, Train Acc: 0.9933, Val Loss: 0.0451, Val Acc: 0.9866
+No improvement in validation loss for 1 epoch(s).
+Epoch 11, Train Loss: 0.0196, Train Acc: 0.9950, Val Loss: 0.0380, Val Acc: 0.9866
+Validation loss decreased to 0.0380. Saving model.
+Epoch 12, Train Loss: 0.0111, Train Acc: 0.9994, Val Loss: 0.0376, Val Acc: 0.9866
+No improvement in validation loss for 1 epoch(s).
+Epoch 13, Train Loss: 0.0109, Train Acc: 1.0000, Val Loss: 0.0360, Val Acc: 0.9902
+Validation loss decreased to 0.0360. Saving model.
+Epoch 14, Train Loss: 0.0060, Train Acc: 1.0000, Val Loss: 0.0399, Val Acc: 0.9846
+No improvement in validation loss for 1 epoch(s).
+Epoch 15, Train Loss: 0.0047, Train Acc: 1.0000, Val Loss: 0.0368, Val Acc: 0.9883
+No improvement in validation loss for 2 epoch(s).
+Epoch 16, Train Loss: 0.0033, Train Acc: 1.0000, Val Loss: 0.0310, Val Acc: 0.9902
+Validation loss decreased to 0.0310. Saving model.
+Epoch 17, Train Loss: 0.0027, Train Acc: 1.0000, Val Loss: 0.0309, Val Acc: 0.9902
+No improvement in validation loss for 1 epoch(s).
+Epoch 18, Train Loss: 0.0022, Train Acc: 1.0000, Val Loss: 0.0321, Val Acc: 0.9902
+No improvement in validation loss for 2 epoch(s).
+Epoch 19, Train Loss: 0.0021, Train Acc: 1.0000, Val Loss: 0.0332, Val Acc: 0.9902
+No improvement in validation loss for 3 epoch(s).
+Epoch 20, Train Loss: 0.0019, Train Acc: 1.0000, Val Loss: 0.0337, Val Acc: 0.9902
+No improvement in validation loss for 4 epoch(s).
+Epoch 21, Train Loss: 0.0019, Train Acc: 1.0000, Val Loss: 0.0324, Val Acc: 0.9902
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 5 epochs with no improvement.
+Loading best model from saved_models/CIForm/sid/mat/model_fold_5.pth for final validation.
+Fold 5 Best Validation - Acc: 0.9872, F1: 0.9611, Pre: 0.9700
+--------------------------------------------------
+
+============================================================
+--- Overall 5-Fold Cross-Validation Results (on Validation Set) ---
+Mean Validation Accuracy: 0.9827 ± 0.0063
+Mean Validation F1-Score: 0.9424 ± 0.0191
+Mean Validation Precision: 0.9668 ± 0.0262
+============================================================
