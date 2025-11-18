@@ -70,24 +70,18 @@ def train_rqvae(model, train_loader, num_epochs, device, learning_rate=1e-3, fol
         avg_rec_loss = rec_loss / len(train_loader)
         avg_quantization_loss = quantization_loss / len(train_loader)
         
-        # if epoch % 5 == 0:  # 每5个epoch打印一次
-        #     print(f'Fold {fold+1} - Epoch {epoch+1}, Average Loss: {avg_loss:.4f}')
-        #     print(f'Fold {fold+1} - Epoch {epoch+1}, Average Rec Loss: {avg_rec_loss:.4f}')
-        #     print(f'Fold {fold+1} - Epoch {epoch+1}, Average Quan Loss: {avg_quantization_loss:.4f}')
-        #     entropies = compute_entropy_from_loader(model, train_loader, device)
-        #     print(f'Fold {fold+1} - Epoch {epoch+1}, Entropies: {entropies}')
         if epoch % 5 == 0 or epoch == num_epochs - 1:
             print(f'Fold {fold+1} - Epoch {epoch+1}')
             print(f'  Avg Total Loss: {avg_loss:.4f}')
             print(f'  Avg Recon Loss: {avg_rec_loss:.4f}')
             print(f'  Avg Quant Loss: {avg_quantization_loss:.4f}')
             
-            # === 新增 ===
+
             metrics = compute_tokenizer_metrics(model, train_loader, device)
             print(f'  Reconstruction Loss (check): {metrics["reconstruction_loss"]:.4f}')
             print(f'  Codebook Utilization per layer: {[round(u, 4) for u in metrics["utilization"]]}')
             print(f'  Token Entropy per layer: {[round(e, 4) for e in metrics["entropy"]]}')
-            # === 在最后一个epoch保存指标结果 ===
+
             if epoch == num_epochs - 1:
                 os.makedirs(f'results/tokenizer_metrics/{dataset}', exist_ok=True)
                 save_path = f'results/tokenizer_metrics/{dataset}/fold{fold+1}_final_metrics.pkl'
@@ -158,7 +152,7 @@ class CodebookClassifier(nn.Module):
 
 def train_classifier(indices_train, labels_train, indices_val, labels_val, 
                     num_classes, num_layers, num_embeddings, embedding_dim, fold=0):
-    """训练基于码本索引的分类器，使用早停机制"""
+    """训练基于码本索引的分类器"""
     # 创建分类模型
     classifier = CodebookClassifier(
         num_layers=num_layers,
@@ -233,7 +227,6 @@ def train_classifier(indices_train, labels_train, indices_val, labels_val,
                   f'Val Acc: {val_accuracy:.4f}, Val F1: {val_f1:.4f}, Val Precision: {val_precision:.4f}')
             classifier.train()  # 切换回训练模式
             
-        # 如果连续patience轮没有改善，停止训练
         if patience_counter >= patience:
             print(f'Fold {fold+1} - Early stopping at epoch {epoch+1}')
             break
@@ -311,7 +304,6 @@ def select_highly_variable_genes_and_norm(h5ad_file_path, n_top_genes=1000):
 def run_cross_validation():
     """
     运行五折交叉验证，保存预处理样本和SID到单独文件夹。
-    不再进行参数搜索。
     保存到本地的五折划分后的是原始样本，而不是高变基因筛选后的。
     """
     # 创建结果保存目录
