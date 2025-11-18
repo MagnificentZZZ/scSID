@@ -7,8 +7,8 @@ To ensure the reproducibility of our experimental results during peer review sta
 - Implementations capable of reproducing the following models:
   - **CIForm baseline**
   - **scSFUT baseline**
-  - **CIForm + SID**
-  - **scSFUT + SID**
+  - **CIForm + Cell-SID**
+  - **scSFUT + Cell-SID**
 
 Other components of the pipeline—including **Stage I code** and **additional extreme comparison models**—will be released after paper acceptance or upon request from reviewers.
 
@@ -19,10 +19,11 @@ Other components of the pipeline—including **Stage I code** and **additional e
 This repository currently includes:
 
 - `results/preprocessed_samples/mat/` — Five-fold dataset splits  
-- `ciform.py` — CIForm baseline and CIForm + SID implementations  
-- `scsfut` and `scsfut+sid` — scSFUT baseline and scSFUT + SID implementations  
+- `ciform.py` — CIForm baseline and CIForm + Cell-SID implementations  
+- `scsfut` and `scsfut+sid` — scSFUT baseline and scSFUT + Cell-SID implementations  
 - `results/sid_indices/mat/` — Pretrained Cell-SIDs for each data fold  
-- `my_model/` — Specific model pipeline of scSFUT.py and scSFUT+sid.py 
+- `my_model/` — Specific model pipeline of scSFUT.py and scSFUT+sid.py
+- `CIForm_mat_base.log` and `CIForm_sid_mat.log` — Training logs reported in scSID paper
 - `README.md`
 
 ---
