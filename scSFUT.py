@@ -46,7 +46,7 @@ args = parser.parse_args()
 
 DATASET_NAME = args.dataset
 BATCH_SIZE = args.batch_size
-# 强制只训练15轮
+
 EPOCH = 15
 FOLD = args.num_fold
 RANDOM_SEED = args.seed
@@ -199,7 +199,6 @@ def train_and_eval():
             lr=LR, weight_decay=1e-4
         )
 
-        # 只训练15轮
         for epoch in tqdm(range(EPOCH), desc=f'Fold {fold}/{FOLD}'):
             transformer_model.train()
             classification_model.train()
@@ -234,7 +233,6 @@ def train_and_eval():
                 val_nmi = normalized_mutual_info_score(all_val_labels, val_pred_classes)
                 print(f"Epoch {epoch + 1}/{EPOCH}, Fold {fold}/{FOLD} - Validation Accuracy: {val_accuracy:.4f}, Validation F1 Score: {val_f1:.4f}, Val Precision_final Score: {val_precision_final:.4f}, Val ARI: {val_ari:.4f}, Val NMI: {val_nmi:.4f}")
 
-                # 只记录最后一轮
                 if epoch == EPOCH - 1:
                     last_f1s.append(val_f1)
                     last_aris.append(val_ari)
